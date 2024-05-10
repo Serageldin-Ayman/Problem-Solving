@@ -16,7 +16,7 @@ public:
         ListNode* before = nullptr;
 
         while (temp != nullptr) {
-            after = temp->next;
+            ListNode* after = temp->next;
             temp->next = before;
             before = temp;
             temp = after;
