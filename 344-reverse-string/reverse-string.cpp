@@ -1,7 +1,11 @@
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-        if(s.empty())
+        
+        std::reverse(s.begin(), s.end());
+        
+        
+        /*if(s.empty())
             return;
         else
         {
@@ -18,6 +22,6 @@ public:
             }
             s.clear();
             s = reversedstr;
-        }
+        }*/
     }
 };
