@@ -1,10 +1,10 @@
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-        
+        //more concise 
         std::reverse(s.begin(), s.end());
         
-        
+        //this works too
         /*if(s.empty())
             return;
         else
