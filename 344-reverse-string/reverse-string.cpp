@@ -17,10 +17,7 @@ public:
                 mystack.pop();
             }
             s.clear();
-           for(char j : reversedstr)
-            {
-                s = reversedstr;
-            }
+            s = reversedstr;
         }
     }
 };
